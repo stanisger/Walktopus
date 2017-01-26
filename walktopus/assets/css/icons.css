@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "walktopus-icons";
+	src:url("../fonts/walktopus-icons.eot");
+	src:url("../fonts/walktopus-icons.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/walktopus-icons.woff") format("woff"),
+	url("../fonts/walktopus-icons.ttf") format("truetype"),
+	url("../fonts/walktopus-icons.svg#walktopus-icons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+[data-icon]:before {
+	font-family: "walktopus-icons" !important;
+	content: attr(data-icon);
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="wt-"]:before,
+[class*=" wt-"]:before {
+	font-family: "walktopus-icons" !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.wt-book:before {
+  vertical-align: middle;
+  content: "\61";
+}
+.wt-chat:before {
+  vertical-align: middle;
+  content: "\62";
+}
+.wt-facebook:before {
+  vertical-align: middle;
+  content: "\63";
+}
+.wt-login:before {
+  vertical-align: middle;
+  content: "\64";
+}
+.wt-mail:before {
+  vertical-align: middle;
+  content: "\65";
+}
+.wt-phone:before {
+  vertical-align: middle;
+  content: "\66";
+}
+.wt-play:before {
+  vertical-align: middle;
+  content: "\68";
+}
+.wt-question:before {
+  vertical-align: middle;
+  content: "\69";
+}
+.wt-star:before {
+  vertical-align: middle;
+  content: "\6a";
+}
+.wt-walktopus:before {
+  vertical-align: middle;
+  content: "\6d";
+}
+.wt-youtube:before {
+  vertical-align: middle;
+  content: "\6e";
+}
+.wt-location:before {
+  vertical-align: middle;
+  content: "\6f";
+}
+.wt-star2:before {
+  vertical-align: middle;
+  content: "\6b";
+}
+.wt-twitter:before {
+  vertical-align: middle;
+  content: "\6c";
+}
+.wt-search:before {
+  vertical-align: middle;
+  content: "\67";
+}
+.wt-arrow-down:before {
+  vertical-align: middle;
+  content: "\70";
+}
+.wt-comments:before {
+  vertical-align: middle;
+  content: "\71";
+}
+.wt-group:before {
+  vertical-align: middle;
+  content: "\72";
+}
+.wt-creditcard:before {
+  vertical-align: middle;
+  content: "\73";
+}
+.wt-diffusion:before {
+  vertical-align: middle;
+  content: "\74";
+}
+.wt-earnings:before {
+  vertical-align: middle;
+  content: "\75";
+}
+.wt-register:before {
+  vertical-align: middle;
+  content: "\76";
+}
+.wt-quotes:before {
+  vertical-align: middle;
+  content: "\77";
+}
+.wt-students:before {
+  vertical-align: middle;
+  content: "\78";
+}
+.wt-health:before {
+  vertical-align: middle;
+  content: "\79";
+}
+.wt-plus:before {
+  vertical-align: middle;
+  content: "\7a";
+}
+.wt-calendar:before {
+  vertical-align: middle;
+  content: "\41";
+}
+.wt-trash:before {
+  vertical-align: middle;
+  content: "\42";
+}
+.wt-complaint:before {
+  vertical-align: top;  
+  content: "\43";
+}
+  /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/01/2017 20:01
+    */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url(".../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+}
+
+.flaticon-acoustic-guitar:before { content: "\f100"; }
+.flaticon-dumbbell-for-training:before { content: "\f101"; }
+.flaticon-engineer:before { content: "\f102"; }
+.flaticon-facebook-logo:before { content: "\f103"; }
+.flaticon-graduation-cap:before { content: "\f104"; }
+.flaticon-linkedin-logo:before { content: "\f105"; }
+.flaticon-lotus-position:before { content: "\f106"; }
+.flaticon-ontology:before { content: "\f107"; }
+.flaticon-painter-palette:before { content: "\f108"; }
+.flaticon-panel:before { content: "\f109"; }
+.flaticon-share:before { content: "\f10a"; }
+.flaticon-twitter-logo-silhouette:before { content: "\f10b"; }
+.flaticon-worlwide:before { content: "\f10c"; }
